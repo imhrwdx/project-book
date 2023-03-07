@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>book</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    <style>
+        section{
+            padding: 60px 0;
+        }
+        #h1{
+            background-color:rgb(220, 221, 225);
+        }
+        #btn1{
+          background-color:rgba(220, 221, 225,1.0);
+        }
+        #btn2{
+          background-color:rgba(220, 221, 225,1.0);
+        }
+        #btn3{
+          background-color:rgba(220, 221, 225,1.0);
+        }
+        #h2center{
+          text-align: center;
+        }
+        #pcenter{
+          text-align: center;
+          background-color: #dcdde1;
+
+        }
+        #pcenter{
+          text-align: center;
+        }
+        #pqu{
+          text-align: center;
+          background-color: #dcdde1;
+        }
+        #colorserch{
+          color: #e1b12c;
+        }
+        #h5{
+          color: gold;
+        }
+
+
+
+
+        
+    </style>
+
+</head>
+<body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <!--navbar-->
+    <nav class="navbar navbar-expand-md navbar-light">
+        <div class="container-xxl">
+            <!--navbar brand/tietle/logo-->
+          <a class="navbar-brand fw-bold" href="intro"><i class="bi bi-book-half"></i>Everything is Fucked Book</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon "></span>
+          </button>
+          <!--navbar links-->
+          <div class="collapse navbar-collapse justify-content-end align-content-center" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#topics">abut book</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#reviews">Reviews</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#contact">Contact</a>
+              </li>
+              <li class="nav-item d-md-none" >
+                <a class="nav-link active" aria-current="page" href="#pricing">Pricing</a>
+              </li>
+              <li class="nav-item ms-2 d-none d-md-inline ">
+                <a class="btn btn-secondary" href="#pricing">Buy now!</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    <!--text on body-->
+    <section id="intro">
+        <div class="container-lg">
+            <div class="row justify-content-center align-items-center">
+                <div class="col-md-4 text-md-sttext-centerart">
+                    <h1>
+                        <div class="display-2">this is a book </div>
+                        <div class="display-5"><i class="bi bi-person-circle"></i> by  mark manson</div><br/>
+                        <img src="markmansonphoto.jpg" class="img-fluid">
+                    </h1>
+                    <p class="lead my-4 text-muted">Mark Manson is an American self-help author and blogger. As of 2022 he has authored or co-authored four books, three of which, The Subtle Art of Not Giving a Fuck, Everything Is Fucked: A Book About Hope, and Will, were The New York Times bestsellers.</p>
+                    <a href="https://markmanson.net/" class="btn btn-secondary btn-lg">click</a>
+                   <!--open sidebar / offcanvas-->
+                  <a  href="#sidebar" class="d-block mt-4 text-muted text-decoration-none " data-bs-toggle="offcanvas" role="button" aria-controls="slider">
+                  <i id="colorserch" class="bi-search fw-bolder"> Explore my other Books</i>
+                 </a>
+                 </div>
+            <!--imag of page-->    
+            <div class="col-md-4 text-center d-none d-md-block">
+                <img src="book.jpg" class="img-fluid" alt="book">
+            </div>
+            </div>
+        </div>
+    </section>
+    <!--cards-->
+    <section id="pricing" class="bg-light mt-5">
+        <div class="container-lg">
+            <div class="text-center">
+                <h1><i class="bi bi-coin"></i>pricing plans</h1>
+                <p class="lead text-muted">
+                    chose a pricing plan to suit you
+                </p>
+            </div>
+            <div  class="row my-5 align-items-center justify-content-center">
+                <div class="col8 col-lg-4 col-xl3">
+                    <div class="card border-0">
+                        <div class="card-body text-center py-4">
+                            <h4 class="card-title">starter edition</h4>
+                            <p class="lead card-subtitle">Everything is Fucked Book download only</p>
+                            <p class="display-5 my-4 text-primary fw-bold">$22.78</p>
+                            <p class="card-text mx-5 text-muted d-none d-lg-block">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Velit, voluptate!</p>
+                            <a href="#" class="btn btn-outline-primary btn-lg mt-3">Buy now!</a>
+
+                    
+                        </div>
+                    </div>
+                </div>
+            </div><!--row end-->
+            <div class="row my-5 align-items-center justify-content-center">
+                <div class="col-9 col-lg-4 col-xl3">
+                    <div class="card rounded border-dark border-4">
+                        <div class="card-header text-center text-primary">most popular</div>
+                        <div class="card-body text-center py-4">
+                            <h4 class="card-title">complite edition</h4>
+                            <p class="lead card-subtitle">Everything is Fucked Book download only</p>
+                            <p class="display-5 my-4 text-primary fw-bold">$30.67</p>
+                            <p class="card-text mx-5 text-muted d-none d-lg-block">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Velit, voluptate!</p>
+                            <a href="#" class="btn btn-outline-primary btn-lg mt-3">Buy now!</a>
+                    
+                        </div>
+                    </div>
+                </div>
+            </div><!--row end-->
+            <div class="row my-5 align-items-center justify-content-center">
+                <div class="col8 col-lg-4 col-xl3">
+                    <div class="card border-0">
+                        <div class="card-body text-center py-4">
+                            <h4 class="card-title">ultimate edition</h4>
+                            <p class="lead card-subtitle">Everything is Fucked Book download only</p>
+                            <p class="display-5 my-4 text-primary fw-bold">$70.67</p>
+                            <p class="card-text mx-5 text-muted d-none d-lg-block">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Velit, voluptate!</p>
+                            <a href="#" class="btn btn-outline-primary btn-lg mt-3">Buy now!</a>
+                    
+        </div><!--continer end-->
+    </section>
+    <!--topics at a glance-->
+    <section id="topics">
+        <div class="container-md">
+            <div class="text-center">
+                <h2> inside the book ...</h2>
+                <p class="lead text-muted">A book about hope and ways to create it in life.</p>
+            </div>
+            <div class="row my-5 g-5 justify-content-around align-items-center">
+                <div class="col-6 col-lg-4">
+                    <img src="imag erson bay book.jpg" class="img-fluid">
+                    <p class=" fst-italic lead text-center my-4 ">A new way of trivializing many problems that are not considered in the real meaning of the problem!</p>
+                    <img src="imgbook.jpg" class="img-fluid">
+                </div>
+                <!--acordiuon-->
+                <div id="acording1" class="accordion" id="chapters">
+                    <div class="accordion-item">
+                      <h2 class="accordion-header" id="heading-1sdpo">
+                        <button id="btn1" class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#chapter-1" aria-expanded="true" aria-controls="#chapter-1">
+                          whay we need read this book?
+                        </button>
+                      </h2>
+                      <div id="chapter-1" class="accordion-collapse collapse show" aria-labelledby="heading-1" data-bs-target="#chapter">
+                        <div class="accordion-body">
+                          <strong>
+                            Because this book reduces stress and worries and gives good suggestions to solve all of our problems
+
+                          </strong>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="accordion-item">
+                      <h2 id="acording1" class="accordion-header" id="headingTwo">
+                        <button id="btn2" class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                          tell me more abut mark manson?
+                        </button>
+                      </h2>
+                      <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                          <strong>
+                            Mark Manson was raised in Austin, Texas, in the United States.[1] He moved to Boston, Massachusetts to study, and graduated from Boston University in 2007.[2][3]
+
+He is married to Fernanda Neute, a wellness influencer whom he met while traveling in São Paulo.[4]
+                          </strong>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="accordion-item">
+                      <h2 class="accordion-header" id="headingThree">
+                        <button id="btn3" class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                            What is the rank of this book?
+                        </button>
+                      </h2>
+                      <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                          <strong>
+                            ISBN-13:	9780062956569
+Publisher:	HarperCollins Publishers
+Publication date:	11/24/2020
+Pages:	288
+Sales rank:	10,019
+                          </strong>
+                            
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+
+            </div>
+    </section>
+    <!--rewies list grop-->
+    <section id="reviews" class="bg-light">
+      <div class="container-lg">
+        <div class="text-center">
+          <h2><i class="bi bi-stars"></i>Book Reviews</h2>
+          <p class="lead">what the people have said about the book...</p>
+        </div>
+
+        <div class="row justify-content-center my-5">
+          <div class="col-lg-8">
+            <div class="list-group">
+              </div>
+              <a href="#" class="list-group-item list-group-item-action list-group-item-primary">User comments about this book</a>
+              <div class="pb-2">
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+              </div>
+              <p class="lead fst-italic bg-light">Cons: This book seems like a failed attempt to cohere some really sensible examples and logics. It is hard to find link connecting the chapters to the topic in hand. It will f*** your brains to the core as you finish the book and wonder so what was the point? It will increase the number of existential questions you already have to 10x and won't make your struggle any better. </p>
+              <a href="#" class="list-group-item list-group-item-action list-group-item-secondary">User comments about this book</a>
+              <div class="pb-2">
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+              </div>
+              <p class="lead fst-italic bg-light">As much as I appreciate Mark's work,
+                I cant help but feel that some of the ideas in this book are just reiteration of ideas spoken by Jordan Peterson and Yuval Noah Harrari.
+                
+                Although I do praise this book for being an easier read than those authors.
+                
+                All in all this is still a great book with some very credible information.</p>
+              <a href="#" class="list-group-item list-group-item-action list-group-item-success">User comments about this book</a>
+              <div class="pb-2">
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-half"></i>
+              </div>
+              <p class="lead fst-italic bg-light">I loved the book. I would encourage people to read it. It provides something to chew on. I just have one nitpick...the last chapter. The book hooked me and pulled me along until he turned into a run of the mill conspiracy theorist in the last chapter. Otherwise the rest of the book is a solid and interesting read</p>
+              <a href="#" class="list-group-item list-group-item-action list-group-item-dark">User comments about this book</a>
+              <div class="pb-2">
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-half"></i>
+                <i class="bi bi-star-half"></i>
+              </div>
+              <p class="lead fst-italic bg-light">Super pale when held against the previous book by Mark. I didn't feel like the book was stitched into one single fabric. It all felt like fragments and didn't really have anything ground-breaking apart from the same theme that rings across the entire self-help category. Cussing doesn't always makes a book good, Mark. 💁🏻</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--forms...-->
+    <section id="contact">
+      <div class="container-lg">
+        <h2 id="h2center" class="fw-bold">Get in Touch</h2>
+        <p id="pcenter" class="lead">Question to ask? Fill out the form to contact me directly...</p>
+      </div>
+      <div class="row justify-content-center my-5">
+        <div class="col-lg-6">
+          <form>
+            <div clas="mb-3">
+              <label for="exampleInputEmail1" class="form-label fw-bolder"><i class="bi bi-envelope-at"></i> Email address</label>
+              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+              <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+            </div>
+            <div class="mb-3">
+              <label for="exampleInputPassword1" class="form-label fw-bolder"><i class="bi bi-compass"></i> Password</label>
+              <input type="password" class="form-control" id="exampleInputPassword1">
+            </div>
+            <div class="mb-3 form-check">
+              <input type="checkbox" class="form-check-input" id="exampleCheck1">
+              <label class="form-check-label" for="exampleCheck1">Remember me</label>
+            </div>
+            <button type="submit" class="btn btn-primary">Send</button>
+            <p id="pqu" class="lead my-4"> <i class="bi bi-chat-dots"></i> Whats your Question abut?</p>
+            <select class="form-select my-5" aria-label="Default select example">
+              <option value="pricing" celected> Pricing book</option>
+              <option value="content">Content book</option>
+              <option value="other">Other book</option>
+            </select>
+          </form>
+
+        </div>
+      </div>
+    </section>
+    <!--chek for updates-->
+    <section class="bg-light">
+      <div class="container">
+        <div class="text-center">
+          <h2>Stay in The Loop</h2>
+          <p class="lead">Get the lastest updates as they happen...</p>
+        </div>
+        <div class="row justify-content-center">
+          <div class="col-md-8 text-center">
+            <p class="text-muted" my-4>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consequuntur aut illo, alias asperiores, voluptatem animi, ex fuga recusandae perferendis non aliquam. Ipsa in enim ea cupiditate itaque exercitationem ipsam placeat voluptate, magnam cumque aut neque quia animi. Deleniti, corporis qui! Deleniti nulla adipisci sapiente facere molestias ea error dolores placeat?</p>
+            <button class="btn btn-primary " data-bs-toggle="modal" data-bs-target="#req-modal">
+              Register for Updates
+
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--modal -->
+    <div class="modal fade" id="req-modal" tabindex="-1" aria-labelledby="modal-title" aria aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title">Get The Latest Updates </h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquam ullam quasi magni temporibus quisquam itaque vel sit, assumenda molestiae amet!</p>
+            <label for="exampleInputEmail1" class="form-label fw-bolder"><i class="bi bi-envelope-at"></i> Email address</label>
+              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+              <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            <button type="button" class="btn btn-primary">Submit</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--side panel / offcanves-->
+    <div class="offcanvas offcanvas-start" tabindex="-1" id="sidebar" aria-labelledby="offcanvasLabel">
+      <div class="offcanvas-header">
+        <h5 id="h5" class="offcanvas-title fw-bolder" id="offcanvasLabel">my other Books</h5>
+        <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+      </div>
+      <div class="offcanvas-body">
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Pariatur quibusdam dolore, inventore alias quis sit aspernatur. Excepturi natus praesentium animi similique cumque commodi recusandae illo ut? Amet explicabo dolorum nemo.</p>
+        <!-- dropdown -->
+        <div class="dropdown mt-5">
+          <button class="btn btn-secondary dropdown-toggle" type="button" id="book-dropdown" data-bs-toggle="dropdown" aria-expanded="false">
+            Chose a Books
+          </button>
+          <ul class="dropdown-menu" aria-labelledby="book-dropdown">
+            <li><a class="dropdown-item" href="#">THE SUBTLE ART OF NOT GIVING A F*CK</a></li>
+            <li><a class="dropdown-item" href="#">WILL</a></li>
+            <li><a class="dropdown-item" href="#">LOVE IS NOT ENOUGH – AUDIOBOOK</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
